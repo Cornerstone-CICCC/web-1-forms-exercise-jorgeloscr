@@ -5,7 +5,7 @@ body {
 }
 
 form {
-  background: white;
+  background: black;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -13,21 +13,12 @@ form {
   margin: 20px auto;
 }
 
-input{
+input {
   width: 100%;
 }
-#gender{
-  width: 10px;
-}
-#subscribe{
-  width: 10px;
+
+label {
+  padding: 150%;
 }
 
-button{
-  background-color: rgb(80, 80, 249);
-  width: 80px;
-  height: 40px;
-  border: 1px solid;
-  border-radius: 10px;
-  color: white;
-}
+/*# sourceMappingURL=css.styles.css.map */

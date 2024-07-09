@@ -8,7 +8,70 @@
 </head>
 <body>
     <form enctype="multipart/form-data" action="index.html" method="get">
-        <!-- FORM FIELDS HERE -->
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firsname">Name:</label><br>
+            <input type="text" name="firstname" id="firstname" style="width: 100%;"><br>
+            <label for="lastname">Email :</label><br>
+            <input type="email" name="email" id="email">
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" name="'dob" id="dob">
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="favColor" >Favorite Color: </label>
+            <input type="color" name="favColor" id="favColor" value="black">
+            <label for="hobby">Hobby: </label>
+            <input type="text" name="hobby" id="hobby">
+            <label for="experience">Experience Level</label>
+            <input type="range">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Preferences</legend>
+            <label for="contact" >Preferred Contact Method </label>
+            <input type="email" name="contact" id="contact" >
+            <label for="subscribe">Subscribe to Newsletter </label><br>
+            <input type="checkbox" name="subscribe" id="subscribe">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <h4>Gender:</h4>
+            <input type="radio" name="male" id="gender" >
+            <label for="male">Male</label><br>
+            <input type="radio" name="female" id="gender" >
+            <label for="female">Female</label><br>
+            <input type="radio" name="other" id="gender" >
+            <label for="other">Other</label>
+            
+            
+            
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>More Information</legend>
+            <label for="moreInfo">More Information</label><br>
+            <textarea name="moreInfo" id="moreInfo" cols="70" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload Documents</legend>
+            <label for="resume">Resume and Other certificates</label><br>
+            <input type="file">
+        </fieldset>
+
+        <fieldset>
+            <legend>Submission</legend>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+
+        
     </form>
 </body>
 </html>
